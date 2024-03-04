@@ -7,6 +7,6 @@ class ExtrairArquivo:
 
     def ReadUrl(self):
         nomeArquivo = pd.read_csv(f'{self.url}', sep=',')
-        nomeArquivo = nomeArquivo.drop(columns=['SNo','Name','Volume'])
+        nomeArquivo = nomeArquivo.drop(columns=['SNo','Name'])
         
         return nomeArquivo
