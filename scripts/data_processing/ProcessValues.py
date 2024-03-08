@@ -1,4 +1,4 @@
-class TableFact():
+class ProcessValues():
     def __init__(self, cryptoCoin: object):
         self.df = cryptoCoin
 
