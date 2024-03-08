@@ -11,6 +11,7 @@ data_criacao DATE NOT NULL
 
 CREATE TABLE calendario(
 idcalendario INT PRIMARY KEY NOT NULL auto_increment,
+datacompleta DATE,
 diasemana CHAR(3),
 diames INT NOT NULL,
 mes INT NOT NULL,
@@ -19,6 +20,7 @@ ano INT NOT NULL
 
 CREATE TABLE marketcap_dia(
 idmarketcap_dia INT PRIMARY KEY NOT NULL auto_increment,
+valor_marketcap FLOAT NOT NULL,
 idmoedas_info INT,
 FOREIGN KEY (idmoedas_info) REFERENCES moedas_info(idmoedas_info),
 idcalendario INT,
