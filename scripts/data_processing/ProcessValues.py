@@ -12,5 +12,5 @@ class ProcessValues():
         return self.__GetColumns('Marketcap')
 
     def __GetColumns(self, *args: str):
-        query = self.df[list(args)]
+        query = self.df[list(args)] if len(args) > 1 else self.df[args[0]]
         return query
