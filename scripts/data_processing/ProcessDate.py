@@ -5,17 +5,20 @@ class ProcessDate:
         self.dfDate = pd.to_datetime(cryptoCoin['Date'])
 
     def FullDate(self):
-        return self.dfDate.dt.strftime('%d-%m-%Y')
+        return list(self.dfDate.dt.strftime('%Y-%m-%d'))
 
     def WeekDay(self):
         dfDay = self.dfDate.dt.weekday
-        return dfDay.map({ 0: "Domingo",
+        return list(dfDay.map({ 0: "Dom",
             1: "Seg", 2: "Ter", 3: "Qua",
             4: "Qui", 5: "Sex", 6: "Sáb"
-        })
+        }))
 
     def MonthDay(self):
-        return self.dfDate.dt.day    
+        return list(self.dfDate.dt.day)    
+
+    def Month(self):
+        return list(self.dfDate.dt.month)
 
     def Year(self):
-        return self.dfDate.dt.year
+        return list(self.dfDate.dt.year)
