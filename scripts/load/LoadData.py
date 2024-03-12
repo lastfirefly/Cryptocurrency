@@ -33,3 +33,6 @@ class LoadData:
                 
                 print(f"Inserting into {table} with values: {values}")
                 self.db.cursor.execute(sql, values)
+            self.db.cnx.commit()
+            self.db.cursor.close()
+            self.db.cnx.close()
