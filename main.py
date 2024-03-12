@@ -149,8 +149,8 @@ tables['ValorDia'] = ('''
 
 ddl.CreateTables(tables)
 
-# load = LoadData()
-# load.Load(('calendario', dfDate), ('moedas_info', dfCoin), ('marketcap_dia', dfValues), ('abrefecha_dia', dfValues), ('minmax', dfValues), ('valor_dia', dfDayValue))
+load = LoadData()
+load.Load(('calendario', dfDate), ('moedas_info', dfCoin), ('marketcap_dia', dfValues), ('abrefecha_dia', dfValues), ('minmax', dfValues), ('valor_dia', dfDayValue))
 
 tablesAlter = {}
 
