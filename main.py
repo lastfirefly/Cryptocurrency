@@ -149,27 +149,33 @@ tables['ValorDia'] = ('''
 
 ddl.CreateTables(tables)
 
-load = LoadData()
-load.Load(('calendario', dfDate), ('moedas_info', dfCoin), ('marketcap_dia', dfValues), ('abrefecha_dia', dfValues), ('minmax', dfValues), ('valor_dia', dfDayValue))
+# load = LoadData()
+# load.Load(('calendario', dfDate), ('moedas_info', dfCoin), ('marketcap_dia', dfValues), ('abrefecha_dia', dfValues), ('minmax', dfValues), ('valor_dia', dfDayValue))
 
 tablesAlter = {}
 
 tablesAlter['MarketcapDia'] = ('''
     ALTER TABLE marketcap_dia
     ADD CONSTRAINT marketcapfk_idCalendario
-    FOREIGN KEY (idcalendario) REFERENCES calendario(idcalendario)
+    FOREIGN KEY (idcalendario) REFERENCES calendario(idcalendario),
+    ADD CONSTRAINT marketcapfk_moeda
+    FOREIGN KEY (idmoedas_info) REFERENCES moedas_info(idmoedas_info)
 ''')
 
 tablesAlter['AbreFechaDia'] = ('''
     ALTER TABLE abrefecha_dia
     ADD CONSTRAINT abrefechafk_idCalendario
-    FOREIGN KEY (idcalendario) REFERENCES calendario(idcalendario)
+    FOREIGN KEY (idcalendario) REFERENCES calendario(idcalendario),
+    ADD CONSTRAINT abrefecha_moeda
+    FOREIGN KEY (idmoedas_info) REFERENCES moedas_info(idmoedas_info)
 ''')
 
 tablesAlter['MinMaxDia'] = ('''
     ALTER TABLE minmax_dia
     ADD CONSTRAINT minmaxfk_idCalendario
-    FOREIGN KEY (idcalendario) REFERENCES calendario(idcalendario)
+    FOREIGN KEY (idcalendario) REFERENCES calendario(idcalendario),
+    ADD CONSTRAINT minmaxdf_moeda
+    FOREIGN KEY (idmoedas_info) REFERENCES moedas_info(idmoedas_info)
 ''')
 
 tablesAlter['ValorDia'] = ('''
