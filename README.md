@@ -1,2 +1,8 @@
-# Criptocoins
-Projeto em grupo módulo 5 do curso de bootcamp Senac + Resilia
+# Cryptocurrency
+# Projeto - Módulo 5
+
+## Objetivo
+
+## Desenvolvimento
+
+## Dependencias
