@@ -68,7 +68,7 @@ O objetivo deste projeto é explorar e analisar dados relacionados a criptomoeda
 - `database/`: Diretório para armazenar arquivos relacionados ao banco de dados.
 - `notebooks/`: Notebooks Jupyter com análises exploratórias e visualizações.
 - `scripts/`: Scripts Python para processamento e limpeza dos dados.
-- `reports/`: Relatórios e documentação do projeto.
+- `archives/`: Arquivos extras essenciais para apresentação do projeto.
 
 ### Contribuição
 
