@@ -30,18 +30,8 @@ Este repositório é destinado à criação do último projeto em grupo referent
 
 O objetivo deste projeto é explorar e analisar dados relacionados a criptomoedas, incluindo informações sobre preços, volumes de negociação, tendências e outras métricas relevantes, fazendo um ETL e um EDA.
 
-### Ferramentas e Linguagens Utilizadas
-
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Ferramentas e Linguagens Utilizadas</title>
-    <style>
-        table {
-            margin: 0 auto;
-        }
-    </style>
-</head>
 <body>
     <h1>Ferramentas e Linguagens Utilizadas</h1>
     <table border="1">
