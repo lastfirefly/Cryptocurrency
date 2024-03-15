@@ -1,5 +1,4 @@
-# Cryptocurrency
-# Projeto - Módulo 5
+<h1 align="center"> Cryptocurrency - Projeto Módulo 5 </h1>
 
 
 <h1 align="center"> :part_alternation_mark: Visão Geral :chart_with_upwards_trend: </h1>
@@ -27,29 +26,43 @@
 
 Este repositório é destinado à criação do último projeto em grupo referente ao módulo 5 do curso **Formação em Análise de Dados** do **Senac + Resilia**.
 
-## Objetivo
+### Objetivo
 
-O objetivo deste projeto é explorar e analisar dados relacionados a criptomoedas, incluindo informações sobre preços, volumes de negociação, tendências e outras métricas relevantes.
+O objetivo deste projeto é explorar e analisar dados relacionados a criptomoedas, incluindo informações sobre preços, volumes de negociação, tendências e outras métricas relevantes, fazendo um ETL e um EDA.
 
-## Ferramentas e Linguagens Utilizadas
+### Ferramentas e Linguagens Utilizadas
 
-### Linguagens:
-- **Python**
-- **Google Colab**
-- **Markdown**
-- **HTML**
-- **MySQL**
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px"> Linguagens</b></td>
+    <td><b style="font-size:30px"> Bibliotecas Python </b></td>
+ </tr>
+ <tr>
+    <td>
+      <ul>
+        <li>Python</li>
+        <li>Google Colab</li>
+        <li>Markdown</li>
+        <li>HTML</li>
+        <li>MySQL</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Pandas</li>
+        <li>NumPy</li>
+        <li>Matplotlib</li>
+        <li>Seaborn</li>
+        <li>Scipy</li>
+        <li>mysql_connector</li>
+        <li>session_info</li>
+      </ul>
+    </td>
+ </tr>
+</table>
 
-### Bibliotecas Python:
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
-- **Scipy**
-- **mysql_connector**
-- **session_info**
 
-## Conteúdo
+### Conteúdo
 
 - `data/`: Diretório contendo os dados brutos das criptomoedas.
 - `database/`: Diretório para armazenar arquivos relacionados ao banco de dados.
@@ -57,40 +70,34 @@ O objetivo deste projeto é explorar e analisar dados relacionados a criptomoeda
 - `scripts/`: Scripts Python para processamento e limpeza dos dados.
 - `reports/`: Relatórios e documentação do projeto.
 
-## Contribuição
+### Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* ou enviar *pull requests*.
 
-## Autora
+### Autores
 
-Este projeto é mantido por [Beatriz Miranda](https://github.com/lastfirefly%29), especialista em **Data Analytics**, com experiência em Python e SQL.
+Este projeto é mantido por:
 
-!GitHub Stats
+- [Luigi Maciel](https://github.com/LuigiPereira1709);
 
-## Objetivo
+- [Beatriz Miranda](https://github.com/lastfirefly%29);
 
-## Desenvolvimento
+- [Ilma Gonçalves](https://github.com/estrela1921);
 
-## Dependencias
-
-
+- [Debora Jansen](https://github.com/DeboraJansen95)
 
 
 
-## :books: Técnicas e tecnologias utilizadas 
+### 📁 Acesso ao projeto
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/lastfirefly/Cryptocurrency).
 
-- ``MySQL``
-
-## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/lastfirefly/ProjetoGrupo_3/tree/main/SQL).
-
-## 📃 Licença
+### 📃 Licença
 
 Este projeto está licenciado sob a Licença Apache - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 
 
-### Sobre o projeto
+## Sobre o projeto
 - Em grupo (squads);
 - Obrigatório;
 - Entregue via link no Portal;
@@ -99,11 +106,9 @@ Este projeto está licenciado sob a Licença Apache - consulte o arquivo [LICENS
 - Correção feita pela Facilitação por meio de rubricas com conceito como nota.
 
 
-Esse é um projeto integrador, em que vocês vão utilizar 
-todas as ferramentas e conhecimentos trabalhados ao 
-longo do curso.  
+Esse é um projeto integrador, em que vocês vão utilizar todas as ferramentas e conhecimentos trabalhados ao longo do curso.  
 
-#### Contexto
+### Contexto
 
 ***Criptomoedas são moedas digitais descentralizadas baseadas em criptografia, que 
 operam em uma rede blockchain que permite transações seguras e transparentes 
@@ -113,12 +118,12 @@ Por isso, você e seu squad foram escalados por uma corretora financeira para
 realizar uma análise exploratória relacionada à série histórica dos valores de
 criptomoedas.***
 
-#### O que é pra fazer?
+### O que é pra fazer?
 
 Realizar uma análise exploratória histórica dos valores de
 criptomoedas.
 As fontes de dados que serão utilizadas no projeto estão 
-disponíveis no Kaggle. 
+disponíveis no [Kaggle](https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory/data?select=coin_Aave.csv). 
 
 ### Como fazer? 
 
@@ -136,28 +141,28 @@ histórica?
 7. Existe correlação entre os valores para todas as criptomoedas?
 
 ### Requisitos
-● Utilizar, VS Code, Jupyter Notebook ou Colab;
+- [x] Utilizar, VS Code, Jupyter Notebook ou Colab;
 
-● Realizar a limpeza dos dados;
+- [x] Realizar a limpeza dos dados;
 
-● Realizar análise exploratória;
+- [x] Realizar análise exploratória;
 
-● Importar os arquivos resultantes para um banco de dados (ex.: Postgres);
+- [x] Exportar os arquivos resultantes para um banco de dados (ex.: Postgres ou MySQL);
 
-- Fazer a conexão do banco de dados com a ferramenta de visualização de dados 
-(Tableau, Power Bi ou Looker);
+- [x] Fazer a conexão do banco de dados com a ferramenta de visualização de dados (Tableau, Power Bi ou Looker);
 
-- Escolher 10 criptomoedas, do conjunto disponibilizado, que serão utilizadas por 
-vocês nesse projeto.
+- [x] Escolher 10 criptomoedas, do conjunto disponibilizado, que serão utilizadas por vocês nesse projeto.
 
-- Gerar, no mínimo, cinco (5) gráficos para a apresentação dos resultados;
+- [x] Gerar, no mínimo, cinco (5) gráficos para a apresentação dos resultados;
 
-- Focar no storytelling para criar a apresentação;
+- [x] Focar no storytelling para criar a apresentação;
 
-- Responder cada uma das perguntas com a visualização mais adequada;
-- O notebook utilizado na análise deve estar organizado, com descrições do passo a 
-passo da análise em markdown, apresentação dos resultados e insights gerados;
-- Levantar mais duas (2) perguntas e respondê-las da forma que achar mais adequada;
-- O projeto desenvolvido deverá ser disponibilizado em repositório no GitHub;
-- O projeto precisa possuir uma evidência de entrega, ou seja, um pequeno parágrafo 
-com uma explicação do que foi feito no projeto e a defesa das escolhas tomadas
+- [x] Responder cada uma das perguntas com a visualização mais adequada;
+
+- [x] O notebook utilizado na análise deve estar organizado, com descrições do passo a passo da análise em markdown, apresentação dos resultados e insights gerados;
+
+- [x] Levantar mais duas (2) perguntas e respondê-las da forma que achar mais adequada;
+      
+- [x] O projeto desenvolvido deverá ser disponibilizado em repositório no GitHub;
+      
+- [ ] O projeto precisa possuir uma evidência de entrega, ou seja, um pequeno parágrafo com uma explicação do que foi feito no projeto e a defesa das escolhas tomadas
