@@ -10,9 +10,10 @@
   <img src="https://img.shields.io/badge/Polkadot-E6007A?style=for-the-badge&logo=polkadot&logoColor=white" alt="Polkadot">
   <img src="https://img.shields.io/badge/Tether-168363?style=for-the-badge&logo=tether&logoColor=white" alt="Tether">
   <img src="https://img.shields.io/badge/Uniswap-000?style=for-the-badge&logo=uniswap&logoColor=white" alt="Uniswap">
-  <img src="https://img.shields.io/badge/USDC-2775CA?style=for-the-badge&logo=usdc&logoColor=white" alt="USDC">
+  <img src="https://img.shields.io/badge/USD Coin-2775CA?style=for-the-badge&logo=usdc&logoColor=white" alt="USD Coin">
   <img src="https://img.shields.io/badge/XRP-000?style=for-the-badge&logo=xrp&logoColor=white" alt="XRP">
 </p>
+
 
 
 ## Objetivo
