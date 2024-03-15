@@ -32,34 +32,56 @@ O objetivo deste projeto é explorar e analisar dados relacionados a criptomoeda
 
 ### Ferramentas e Linguagens Utilizadas
 
-<table border="0">
- <tr>
-    <td><b style="font-size:30px"> Linguagens</b></td>
-    <td><b style="font-size:30px"> Bibliotecas Python </b></td>
- </tr>
- <tr>
-    <td>
-      <ul>
-        <li>Python</li>
-        <li>Google Colab</li>
-        <li>Markdown</li>
-        <li>HTML</li>
-        <li>MySQL</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Pandas</li>
-        <li>NumPy</li>
-        <li>Matplotlib</li>
-        <li>Seaborn</li>
-        <li>Scipy</li>
-        <li>mysql_connector</li>
-        <li>session_info</li>
-      </ul>
-    </td>
- </tr>
-</table>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ferramentas e Linguagens Utilizadas</title>
+    <style>
+        table {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ferramentas e Linguagens Utilizadas</h1>
+    <table border="1">
+        <tr>
+            <th>Linguagens</th>
+            <th>Bibliotecas Python</th>
+            <th>Ferramentas</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Python</li>
+                    <li>Google Colab</li>
+                    <li>Markdown</li>
+                    <li>HTML</li>
+                    <li>MySQL</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Matplotlib</li>
+                    <li>Seaborn</li>
+                    <li>Scipy</li>
+                    <li>mysql_connector</li>
+                    <li>session_info</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://localhost/phpmyadmin" target="_blank">phpMyAdmin</a></li>
+                    <li><a href="http://localhost" target="_blank">XAMPP</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
 
 
 ### Conteúdo
